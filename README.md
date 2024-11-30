@@ -1,4 +1,16 @@
-﻿# PowerPlanSwitcher 🔋
+# DID NOT VERIFY THIS REP IS VIRUS FREE!!
+TODO verify, and probably delete the .exe
+Copied from random Github user (sorry and thanks a lot, but I don't know you)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ # PowerPlanSwitcher 🔋
 中文版在[这里](README_cn.md)
 
 Switching between different power plans with ease, including shortcuts and decent GUI.
