@@ -1,17 +1,17 @@
-# !!! DID NOT VERIFY THIS REP IS VIRUS FREE !!!
-TODO verify, and probably delete the .exe
-Copied from random Github user (sorry and thanks a lot, but I don't know you)
- - Toroworx 
- 
- 
- 
- 
- 
- 
- 
+> **Info: This repository is forked from [Ladbaby](https://github.com/Ladbaby/PowerPlanSwitcher)**<br /> 
+> There was for me no way to check **PowerPlanSwitcher.exe** for malicious code, other than running Malwarebytes scan.
+So to be sure I've deleted and recreated it:
+>
+> - Open AutoHotkey
+> - Click `Compile`
+> - Open PowerPlanSwitcher.ahk
+> - Use Base File v1.1 (first you'll need to install AutoHotkey v1.1 by e.g. double double clicking PowerPlanSwitcher.ahk)
+> - Click `Convert` and save as `PowerPlanSwitcher.exe`
+> 
+> 
+> - — Toroworx 
  
  # PowerPlanSwitcher 🔋
-中文版在[这里](README_cn.md)
 
 Switching between different power plans with ease, including shortcuts and decent GUI.
 
@@ -87,9 +87,4 @@ There're many similar apps:
 
 - [petrroll/PowerSwitcher](https://github.com/petrroll/PowerSwitcher): Windows native GUI
 - [SebastianBecker2/PowerPlanSwitcher](https://github.com/SebastianBecker2/PowerPlanSwitcher): Supports hotkey customization and switching based on process
-
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=Ladbaby/PowerPlanSwitcher&type=Date)](https://star-history.com/#Ladbaby/PowerPlanSwitcher&Date)
 
