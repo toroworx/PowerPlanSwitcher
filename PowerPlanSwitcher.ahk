@@ -287,7 +287,8 @@ showAndMonitor(){
     ; global ifMonitoring
     getAllPowerSchemes()
     ; ifMonitoring := 1
-    SetTimer, monitorForSelection, 100
+    ; This is probably key debounce timer (in ms). Increase to e.g. 100 when having issues, e.g. when list selection goes to quick and items are skipped
+    SetTimer, monitorForSelection, 50
 }
 getAllPowerSchemes(){
     global IfPlanListShowing
