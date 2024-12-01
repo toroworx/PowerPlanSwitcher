@@ -224,6 +224,11 @@ initializeProgram(){
     ; initialize power plans' names and GUIDs
     IniDelete, .\setting.ini, PowerPlans
     allPowerSchemes := StdOutToVar("powercfg -l")
+
+     ;MsgBox, %allPowerSchemes%
+
+
+
     Pos := 1
     Pos2 := 1
     GUIDTemp := 0
@@ -336,7 +341,7 @@ StdOutToVar(cmd)
 	NumPut(0x100, STARTUPINFO, (A_PtrSize == 4 ? 44 : 60), "UInt")        ; dwFlags
 	NumPut(hWritePipe, STARTUPINFO, (A_PtrSize == 4 ? 60 : 88), "Ptr")    ; hStdOutput
 	NumPut(hWritePipe, STARTUPINFO, (A_PtrSize == 4 ? 64 : 96), "Ptr")    ; hStdError
-	
+
 	if !DllCall(
 	(Join Q C
 		"CreateProcess",             ; http://goo.gl/9y0gw
@@ -413,10 +418,10 @@ monitorForSelection(){
 displayOSD(osdTemp, schemeTemp){
     global nameAndIcon
     if (schemeTemp = "Power saver"){
-        osdTemp.showAndHide("🍃 Power Saver", 1) ; 
+        osdTemp.showAndHide("🍃 Power Saver", 1) ;
     }
     else if (schemeTemp = "节能"){
-        osdTemp.showAndHide("🍃 节能", 1) ; 
+        osdTemp.showAndHide("🍃 节能", 1) ;
     }
     else if (schemeTemp = "Balanced"){
         osdTemp.showAndHide("☯️ Balanced")
@@ -460,14 +465,14 @@ powerPlanAutoManage()
     ; DCMode
     ; nameAndCommand
     ; MsgBox, wtf
-    
+
     ; if ( loopCounter < 1)	;to manually retrieve currentPowerScheme only on initial run
     ;     loopCounter := 0
     ; if ( loopCounter = 0 )
     ;     Gosub, getactivePOWERscheme
     ; loopCounter += 1
-    
-    
+
+
     if acLineStatus = 0 ;if not on AC power
     {
         IfNotEqual, powerStateChange, 1 ;so if equal to 2

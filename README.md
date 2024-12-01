@@ -5,9 +5,9 @@ So to be sure I've deleted and recreated it:
 > - Open AutoHotkey
 > - Click `Compile`
 > - Open PowerPlanSwitcher.ahk
-> - Use Base File v1.1 (first you'll need to install AutoHotkey v1.1 by e.g. double double clicking PowerPlanSwitcher.ahk)
+> - Use Base File `v1.1.37.02 U64 Unicode 64-bit.bin` (first you'll need to install AutoHotkey v1.1 by e.g. double clicking PowerPlanSwitcher.ahk)
 > - Click `Convert` and save as `PowerPlanSwitcher.exe`
-> 
+>
 > 
 > - — Toroworx 
  
