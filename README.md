@@ -85,7 +85,9 @@ They can also be modified, as long as you change the corresponding vbs scripts u
 
 ## Windows taskbar Power Plan shortcuts
 
-By default the Power Plan shortut is shown in Windows Tray. If you wish, you could also
+> **TODO: Implement code to update Power Plan Switcher tray icon, after clicking these taskbar shortcuts.
+
+By default the Power Plan shortcut is shown in Windows Tray. If you wish, you could also
 place the shortcuts in Window's taskbar:
 
 ### Steps to install Power Plan shortcuts to Windows taskbar
