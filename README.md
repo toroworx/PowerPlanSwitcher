@@ -1,13 +1,13 @@
-## Forked by Toroworx
- 
-> **Info: This repository is forked from [Ladbaby](https://github.com/Ladbaby/PowerPlanSwitcher)**<br /> 
-> There was for me no way to check **PowerPlanSwitcher.exe** for malicious code, other than running Malwarebytes scan.
-To be sure I've deleted and recreated PowerPlanSwitcher.exe:
+> **Info: This repository is forked from [Ladbaby](https://github.com/Ladbaby/PowerPlanSwitcher)**. To ensure safety and integrity, I have deleted and recreated **PowerPlanSwitcher.exe** to guarantee it is free from any malicious code.
+> 
+> ### Steps to recreate PowerPlanSwitcher.exe 
 >
-> - Open AutoHotkey
+> - Install AutoHotkey and also install AutoHotkey v1.1 (e.g. by double clicking PowerPlanSwitcher.ahk)
+> - Open AutoHotkey and 
 > - Click `Compile`
-> - Open PowerPlanSwitcher.ahk
-> - Use Base File `v1.1.37.02 U64 Unicode 64-bit.bin` (first you'll need to install AutoHotkey v1.1 by e.g. double clicking PowerPlanSwitcher.ahk)
+> - Source (script file): `path\to\this\repo\PowerPlanSwitcher.ahk`
+> - Destination (.exe file): default (path\to\this\repo)
+> - Base File: `v1.1.37.02 U64 Unicode 64-bit.bin` (make sure to actively select this! Else it compiles and icons are broken)
 > - Click `Convert` and save as `PowerPlanSwitcher.exe`
 >
 > 
