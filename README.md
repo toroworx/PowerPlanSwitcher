@@ -1,6 +1,8 @@
+## Forked by Toroworx
+ 
 > **Info: This repository is forked from [Ladbaby](https://github.com/Ladbaby/PowerPlanSwitcher)**<br /> 
 > There was for me no way to check **PowerPlanSwitcher.exe** for malicious code, other than running Malwarebytes scan.
-So to be sure I've deleted and recreated it:
+To be sure I've deleted and recreated PowerPlanSwitcher.exe:
 >
 > - Open AutoHotkey
 > - Click `Compile`
@@ -10,7 +12,7 @@ So to be sure I've deleted and recreated it:
 >
 > 
 > - — Toroworx 
- 
+
  # PowerPlanSwitcher 🔋
 
 Switching between different power plans with ease, including shortcuts and decent GUI.
@@ -80,6 +82,17 @@ They can also be modified, as long as you change the corresponding vbs scripts u
     - If you wish it to launch at startup, create a shortcut for `PowerPlanSwitcher.exe`, then put it in "Startup" folder (<kbd>Win</kbd>+<kbd>R</kbd>, enter `shell:startup` to enter the "Startup" folder)
 
     - If you want the shortcuts work in games, you may refer to this [post](https://www.autohotkey.com/board/topic/111737-how-to-make-ahk-work-in-most-games-the-basics/)
+
+## Windows taskbar Power Plan shortcuts
+
+By default the Power Plan shortut is shown in Windows Tray. If you wish, you could also
+place the shortcuts in Window's taskbar:
+
+### Steps to install Power Plan shortcuts to Windows taskbar
+
+1. Open `\taskbar shortcuts\` of this repository. 
+2. Move the shortcuts to the Windows taskbar.
+3. Right-click the shortcut and select `Pin to taskbar`
 
 ## Similar Apps
 
